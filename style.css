@@ -6,7 +6,7 @@ body {
   line-height: 32px;
   color: #222222;
   background-color: #f2f4f6;
-  background-image: url("img/hero-bg.jpg");
+  background-image: url("img/my-hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -47,7 +47,7 @@ body {
 }
 
 .hero-image {
-  margin-bottom: 620px;
+  margin-bottom: 320px;
 }
 
 .hero-image .container {
@@ -83,8 +83,21 @@ body {
 }
 
 .user-image {
-  margin: 0 0 32px;
+  margin: 50px 0 32px;
   text-align: center;
+}
+
+.shadow {
+  box-shadow: 0 0 25px 15px rgb(255, 255, 255);
+  border-radius: 50px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+h4 {
+  margin-left: 15px;
 }
 
 .intro h3,
@@ -97,6 +110,11 @@ body {
 
 .intro p {
   margin: 0 0 32px;
+}
+
+.thinking {
+  display: flex;
+  margin-top: 20px;
 }
 
 .skills-list {
@@ -131,7 +149,7 @@ body {
 .level div {
   margin: 1px;
   height: 12px;
-  background-color: #288be6;
+  background-color: hsl(209, 88%, 74%);
   border-radius: 6px;
 }
 
@@ -150,7 +168,7 @@ body {
 }
 
 .project-image {
-  margin: 0 0 24px;
+  margin: 30px 0 24px;
   text-align: center;
 }
 
@@ -165,13 +183,13 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 4px;
-  background-color: #288be6;
+  background-color: hsl(209, 88%, 74%);
   color: #ffffff;
 }
 
 .page-footer {
   padding: 40px 0;
-  background-color: #00417d;
+  background-color: hsl(209, 52%, 63%);
   color: #ffffff;
 }
 
