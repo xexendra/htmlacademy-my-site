@@ -18,8 +18,9 @@ body {
 }
 
 .page-header {
-  margin: 0 0 50px;
-  padding: 32px 0 32px;
+  margin: 20px 0 50px;
+  padding: 12px 0 12px;
+  display: flex;
 }
 
 .page-header .container,
@@ -28,12 +29,19 @@ body {
   text-align: right;
 }
 
-.page-header a {
-  margin-left: 56px;
+.page-header .contacts a {
+  margin-left: 16px;
   color: #288be6;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
+}
+
+.contacts {
+  margin-top: -14px;
+  padding: 12px 20px;
+  background-color: #f2f4f6ab;
+  border: 2px solid #5895cea1;
 }
 
 .header-email {
@@ -44,6 +52,40 @@ body {
 .header-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-header.svg");
+}
+
+/*Стили меню*/
+
+.main-menu ul{
+  margin: 0;
+  padding: 0;
+}
+
+.main-menu li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline;
+}
+
+.main-menu a {
+  margin-right: -6px;
+  color: #288be6;
+  text-decoration: none;
+  padding: 18px 20px 19px;
+  background-color: #f2f4f6ab;
+  border: 2px solid #5895cea1;
+}
+
+.main-menu li a:hover {
+  color: #ffffff;
+  background-color: #701919a6;
+}
+
+.main-menu > ul > a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #5183b185;
 }
 
 .hero-image {
@@ -149,7 +191,7 @@ h4 {
 .level div {
   margin: 1px;
   height: 12px;
-  background-color: hsl(209, 88%, 74%);
+  background-color: #609dd6d5;
   border-radius: 6px;
 }
 
@@ -209,4 +251,29 @@ h4 {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
+}
+
+.up-button {
+  position: fixed;
+  z-index: 1;
+  padding: 0;
+  bottom: 75px;
+  right: 20px;
+  width: 64px;
+  height: 64px;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  border: 5px solid;
+  border-radius: 50%;
+  display: none;
+  cursor: pointer;
+  color: #5183b185;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: #5183b185;
+}
+
+.shown {
+  display: inline-block;
 }

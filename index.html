@@ -9,10 +9,18 @@
 
   <body>
     <header class="page-header">
-      <div class="container">
+      <div class="container main-menu">
+        <ul>
+          <a name="start-menu">Навигация на странице</a>
+          <li><a href="#story" title="Перейти">Опыт работы</a></li>
+          <li><a href="#skills" title="Перейти">Навыки</a></li>
+          <li><a href="#portfolio" title="Перейти">Портфолио</a></li>
+        </ul>
+      </div>
+      <div class="container contacts">
         <a class="header-email" href="mailto:v.kholmanskaya@yandex.ru">v.kholmanskaya@yandex.ru</a>
         <a class="header-phone" href="tel:+79528776210">+7 (952) 877 62-10</a>
-        <a href="https://vk.com/xexendra">VK</a>     
+        <a href="https://www.instagram.com/xexendra/">Instagram</a>    
       </div>
     </header>
 
@@ -28,7 +36,7 @@
 
     <section class="intro">
       <div class="container">
-        <h2 class="subheading">Давайте познакомимся</h2>
+        <h2 class="subheading"><a  name="story">Давайте познакомимся</a></h2>
         
         <h4>Я способный начинающий верстальщик</h4>
         <p>Мне всегда нравилось заниматься оформлением страниц в Интернете. <br>
@@ -42,7 +50,7 @@
         </p>
                 
         <div class="thinking">
-          <p style="width: 100%-300px;">Иногда ко мне приходила мысль: 
+          <p style="width: 100%-300px;">Иногда ко мне приходила мысль:<br>
             А может быть стоит заниматься работой с компьютером и наведением красоты в Интернетах?
             Чтобы всем было удобно и приятно получать информацию.
           </p>
@@ -50,7 +58,7 @@
         </div>
 
         <ul>
-          <p><b>Я пробовала заниматься разным за 24 года...</b></p>
+          <p><b>Опыт моей прошлой деятельности</b></p>
           <li>Получила высшее образование в Кубанском государственном университете
             по специальности Педагог-психолог девиантного поведения
           </li>
@@ -87,7 +95,7 @@
         </ul>
 
         <div class="skills">
-          <h3>Что я умею сейчас</h3>
+          <h3><a name="skills">Что я умею сейчас</a></h3>
           <dl class="skills-list">
             <dt class="skill-html">HTML</dt>
             <dd class="level"><div style="width: 70%;">70%</div></dd>
@@ -102,7 +110,7 @@
 
     <section class="portfolio">
       <div class="container">
-        <h2 class="subheading">Пара примеров моей работы</h2>
+        <h2 class="subheading"><a name="portfolio">Пара примеров моей работы</a></h2>
           <figure class="project-image">
             <img src="files/project.jpg" width="928" height="536" alt="Cайт инструктора Кекса">
           </figure>
@@ -110,7 +118,7 @@
           <figure class="project-image">
             <img src="files/project-2.jpg" width="928" alt="Сайт приюта. Продукт обучения в RSSchool">
           </figure>
-          <a class="button" href="source/project/index.html" title="Временно недоступно">Открыть страницу</a>
+          <a class="button" title="Временно недоступно">Открыть страницу</a>
       </div>
     </section>
 
@@ -118,8 +126,14 @@
       <div class="container">
         <a class="footer-email" href="mailto:v.kholmanskaya@yandex.ru">v.kholmanskaya@yandex.ru</a>
         <a class="footer-phone" href="tel:+79528776210">+7 (952) 877 62-10</a>
+        <a href="https://www.instagram.com/xexendra/">Instagram</a>
         <a href="https://vk.com/xexendra">VK</a>        
       </div>
     </footer>
+
+    <button class="up-button" type="button">
+      ↑
+    </button>
+    <script src="up-button.js"></script>
   </body>
 </html>
